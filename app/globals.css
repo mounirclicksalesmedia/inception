@@ -310,6 +310,7 @@ html[dir="rtl"] .btn .arrow { transform: scaleX(-1); }
 html[dir="rtl"] .mobile-menu { transform: translateX(-100%); }
 html[dir="rtl"] .mobile-menu.open { transform: translateX(0); }
 html[dir="rtl"] .mobile-menu a .num { margin-right: 0; margin-left: 16px; }
+html[dir="rtl"] .marquee-track { flex-direction: row-reverse; }
 html[dir="rtl"] .serif-touch {
   font-family: var(--font-almarai), serif;
   font-style: normal;
