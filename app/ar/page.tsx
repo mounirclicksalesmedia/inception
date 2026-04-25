@@ -8,62 +8,62 @@ import CloudScene from "@/components/CloudSceneLazy";
 const SERVICES = [
   {
     n: "/01",
-    name: "Brand Strategy",
-    desc: "Positioning, identity, naming, guidelines",
+    name: "استراتيجية العلامة",
+    desc: "تموضع، هوية، تسمية، إرشادات",
   },
   {
     n: "/02",
-    name: "Web Development",
-    desc: "Websites, e-commerce, custom platforms",
+    name: "تطوير المواقع",
+    desc: "مواقع، متاجر إلكترونية، منصّات مخصّصة",
   },
   {
     n: "/03",
-    name: "Mobile Applications",
-    desc: "iOS, Android, cross-platform products",
+    name: "تطبيقات الجوّال",
+    desc: "iOS، أندرويد، تطبيقات هجينة",
   },
   {
     n: "/04",
-    name: "Social Media",
-    desc: "Strategy, content, community management",
+    name: "إدارة السوشيال ميديا",
+    desc: "استراتيجية، محتوى، إدارة المجتمع",
   },
   {
     n: "/05",
-    name: "Paid Ads & PPC",
-    desc: "Google, Meta, TikTok, Snap, performance",
+    name: "الإعلانات المدفوعة (PPC)",
+    desc: "جوجل، ميتا، تيك توك، سناب",
   },
   {
     n: "/06",
-    name: "Content Production",
-    desc: "Photo, video, motion, post-production",
+    name: "إنتاج المحتوى",
+    desc: "تصوير، فيديو، موشن، ما بعد الإنتاج",
   },
 ];
 
 const STEPS = [
-  { n: "01", title: "Discover", body: "We start with stakeholder interviews, audience research, and a clear read of the market you're entering." },
-  { n: "02", title: "Plan", body: "A focused strategy and roadmap — what we'll build, what we'll say, and how we'll measure it." },
-  { n: "03", title: "Build", body: "Identity, websites, apps, content and campaigns produced in-house by senior craftspeople." },
-  { n: "04", title: "Grow", body: "Paid media, social, SEO and ongoing optimization tuned to real business KPIs." },
+  { n: "01", title: "الاكتشاف", body: "نبدأ بمقابلات مع أصحاب العلاقة، وأبحاث الجمهور، وقراءة واضحة للسوق الذي تدخله." },
+  { n: "02", title: "التخطيط", body: "استراتيجية وخارطة طريق واضحة — ما الذي سنبنيه، وماذا سنقول، وكيف سنقيس النتائج." },
+  { n: "03", title: "البناء", body: "هوية، مواقع، تطبيقات، محتوى، وحملات — كلّها يصنعها فريق داخلي من ذوي الخبرة." },
+  { n: "04", title: "النموّ", body: "إعلانات مدفوعة، سوشيال، SEO، وتحسين مستمرّ مرتبط بمؤشّرات أعمال حقيقية." },
 ];
 
 const INSIGHTS = [
   {
-    date: "04 · APR · 2026 — PERFORMANCE",
-    title: "Why most KSA paid-media plans leak budget in week one.",
-    body: "A short audit framework for spotting the structural waste hiding inside your Meta and Google accounts.",
+    date: "04 · أبريل · 2026 — أداء",
+    title: "لماذا تُهدر معظم خطط الإعلانات في السعودية الميزانية في الأسبوع الأوّل.",
+    body: "إطار تدقيق سريع لاكتشاف الهدر البنيوي المخفي داخل حسابات ميتا وجوجل.",
   },
   {
-    date: "22 · MAR · 2026 — DIGITAL",
-    title: "A website is a product, not a brochure.",
-    body: "How to brief, build and measure a site that earns its place in the funnel.",
+    date: "22 · مارس · 2026 — رقمي",
+    title: "الموقع الإلكتروني منتج، وليس بروشور.",
+    body: "كيف تكتب البريف، وتبني، وتقيس موقعاً يستحقّ مكانه في القمع التسويقي.",
   },
   {
-    date: "11 · MAR · 2026 — SOCIAL",
-    title: "TikTok is a search engine. Brief accordingly.",
-    body: "What changes when you stop treating short-form as TV and start treating it as discovery.",
+    date: "11 · مارس · 2026 — سوشيال",
+    title: "تيك توك محرّك بحث. اكتب البريف على هذا الأساس.",
+    body: "ما يتغيّر حين تتوقّف عن التعامل مع المحتوى القصير كتلفزيون، وتبدأ بالتعامل معه كمنصّة اكتشاف.",
   },
 ];
 
-export default function Home() {
+export default function HomeAr() {
   return (
     <main>
       {/* ========== HERO ========== */}
@@ -87,18 +87,18 @@ export default function Home() {
 
         <div className="hero-inner container">
           <div className="hero-top">
-            <span className="eyebrow">A creative agency · 001</span>
+            <span className="eyebrow">وكالة إبداعية · 001</span>
           </div>
 
           <HeroLines className="hero-title h-display">
             <span className="hero-line">
-              <span>We build</span> <em className="serif-touch gold">brands</em>
+              <span>نبني</span> <em className="serif-touch gold">علامات</em>
             </span>
             <span className="hero-line">
-              <span>that</span> <span className="hero-mark">▲</span>
+              <span>تنمو</span> <span className="hero-mark">▲</span>
             </span>
             <span className="hero-line">
-              <span>actually</span> <em className="serif-touch">grow.</em>
+              <span>على</span> <em className="serif-touch">أرض الواقع.</em>
             </span>
           </HeroLines>
 
@@ -107,16 +107,16 @@ export default function Home() {
 
             <div className="hero-copy">
               <p className="body-lg" style={{ maxWidth: "40ch" }}>
-                <span className="gold">Inception</span> is a Saudi-based
-                marketing agency. We design brands, build websites and apps,
-                run paid media, and produce the content that moves them.
+                <span className="gold">إنسبشن</span> وكالة تسويق سعودية.
+                نصمّم العلامات، ونبني المواقع والتطبيقات، ونُدير الإعلانات
+                المدفوعة، ونُنتج المحتوى الذي يُحرّكها.
               </p>
               <div className="hero-cta-row">
-                <Link className="btn btn-solid" href="/work">
-                  See Our Work <span className="arrow">→</span>
+                <Link className="btn btn-solid" href="/ar/work">
+                  شاهد أعمالنا <span className="arrow">→</span>
                 </Link>
-                <Link className="btn btn-ghost" href="/services">
-                  What We Do <span className="arrow">→</span>
+                <Link className="btn btn-ghost" href="/ar/services">
+                  ماذا نقدّم <span className="arrow">→</span>
                 </Link>
               </div>
             </div>
@@ -124,21 +124,21 @@ export default function Home() {
             <div className="hero-stats">
               <div className="stat">
                 <div className="stat-num h-display">06</div>
-                <div className="stat-label">Core services</div>
+                <div className="stat-label">خدمات أساسية</div>
               </div>
               <div className="stat">
                 <div className="stat-num h-display">100<span className="gold">%</span></div>
-                <div className="stat-label">In-house team</div>
+                <div className="stat-label">فريق داخلي</div>
               </div>
               <div className="stat">
                 <div className="stat-num h-display">KSA</div>
-                <div className="stat-label">Built in Riyadh</div>
+                <div className="stat-label">من الرياض</div>
               </div>
             </div>
           </div>
 
           <div className="hero-scroll">
-            <span>↓ Scroll</span>
+            <span>↓ مرّر</span>
             <span className="scroll-line"></span>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function Home() {
       <div className="marquee" aria-hidden="true">
         <div className="marquee-track">
           {Array.from({ length: 2 }).flatMap((_, k) =>
-            ["Brand Strategy", "Web Development", "Mobile Apps", "Social Media", "Paid Ads", "Content"].map((label, i) => (
+            ["استراتيجية العلامة", "تطوير المواقع", "تطبيقات الجوّال", "السوشيال ميديا", "الإعلانات المدفوعة", "إنتاج المحتوى"].map((label, i) => (
               <span key={`${k}-${i}`} className="marquee-item">
                 {label} <span className="star">✦</span>
               </span>
@@ -161,21 +161,21 @@ export default function Home() {
       <Reveal as="section" className="section intro">
         <div className="container intro-grid">
           <div className="intro-eyebrow">
-            <span className="eyebrow">Manifesto · 002</span>
+            <span className="eyebrow">بيان · 002</span>
           </div>
           <div className="intro-copy">
             <h2 className="h-display h2">
-              Strategy, design,
+              استراتيجية وتصميم
               <br />
-              code, and <em className="serif-touch gold">media</em>
+              وبرمجة و<em className="serif-touch gold">إعلام</em>
               <br />
-              under <em className="serif-touch">one roof</em>.
+              تحت <em className="serif-touch">سقف واحد</em>.
             </h2>
             <p className="body-lg" style={{ maxWidth: "52ch", marginTop: 32 }}>
-              We&apos;re a full-stack marketing agency in Saudi Arabia. From
-              positioning and identity to web, mobile apps, social, and paid
-              media — every part of the brand is built and run by the same
-              team. No silos, no handoffs, no excuses.
+              نحن وكالة تسويق متكاملة في المملكة العربية السعودية. من
+              التموضع والهوية إلى المواقع وتطبيقات الجوّال والسوشيال
+              والإعلانات المدفوعة — كلّ جزء من العلامة يبنيه ويُديره الفريق
+              نفسه. لا أقسام منعزلة، ولا تسليم بين مزوّدين، ولا أعذار.
             </p>
           </div>
         </div>
@@ -185,17 +185,17 @@ export default function Home() {
       <section className="section services" id="services">
         <div className="container">
           <Reveal className="section-head">
-            <span className="eyebrow">What we do · 003</span>
+            <span className="eyebrow">ماذا نقدّم · 003</span>
             <h2 className="h-display h2">
-              Six disciplines.
+              ستّ تخصّصات.
               <br />
-              One <em className="serif-touch gold">obsession</em>.
+              <em className="serif-touch gold">هاجس</em> واحد.
             </h2>
           </Reveal>
 
           <Reveal className="services-list" stagger={0.08} y={20}>
             {SERVICES.map((s) => (
-              <Link key={s.n} href="/services" className="service-row">
+              <Link key={s.n} href="/ar/services" className="service-row">
                 <span className="srv-num mono">{s.n}</span>
                 <span className="srv-name h-display">{s.name}</span>
                 <span className="srv-desc">{s.desc}</span>
@@ -209,10 +209,7 @@ export default function Home() {
       {/* ========== FEATURED WORK ========== */}
       <section className="section featured-work">
         <div className="container">
-          <Reveal
-            className="section-head"
-            // override is fine — flex display kept inline
-          >
+          <Reveal className="section-head">
             <div
               style={{
                 display: "flex",
@@ -223,71 +220,70 @@ export default function Home() {
               }}
             >
               <div>
-                <span className="eyebrow">Selected work · 004</span>
+                <span className="eyebrow">أعمال مختارة · 004</span>
                 <h2 className="h-display h2" style={{ marginTop: 18 }}>
-                  Recent <em className="serif-touch gold">chapters</em>
+                  فصول <em className="serif-touch gold">حديثة</em>
                 </h2>
               </div>
-              <Link className="btn btn-ghost" href="/work">
-                View Archive <span className="arrow">→</span>
+              <Link className="btn btn-ghost" href="/ar/work">
+                تصفّح الأرشيف <span className="arrow">→</span>
               </Link>
             </div>
           </Reveal>
 
           <Reveal className="work-grid" stagger={0.12} y={24}>
-            <Link href="/work" className="work-card work-card-lg">
+            <Link href="/ar/work" className="work-card work-card-lg">
               <div className="work-img">
                 <Image
                   src="/home/brand.png"
-                  alt="Hospitality brand launch"
+                  alt="إطلاق علامة ضيافة"
                   fill
                   sizes="(max-width: 1024px) 100vw, 66vw"
                   style={{ objectFit: "cover" }}
                 />
               </div>
               <div className="work-meta">
-                <span className="mono">2025 · Brand &amp; Web</span>
-                <h3 className="h3 h-display">Hospitality Brand Launch</h3>
+                <span className="mono">2025 · هوية وموقع</span>
+                <h3 className="h3 h-display">إطلاق علامة ضيافة</h3>
                 <p className="text-mute" style={{ maxWidth: "48ch" }}>
-                  Full identity system and launch website for a boutique
-                  hospitality concept entering the Saudi market.
+                  نظام هوية كامل وموقع إطلاق لعلامة ضيافة بوتيك تدخل
+                  السوق السعودي.
                 </p>
               </div>
             </Link>
-            <Link href="/work" className="work-card">
+            <Link href="/ar/work" className="work-card">
               <div className="work-img">
                 <Image
                   src="/home/ios.png"
-                  alt="Fintech mobile product"
+                  alt="تطبيق فينتك"
                   fill
                   sizes="(max-width: 1024px) 50vw, 33vw"
                   style={{ objectFit: "cover" }}
                 />
               </div>
               <div className="work-meta">
-                <span className="mono">2025 · Mobile App</span>
-                <h3 className="h3 h-display">Fintech Mobile Product</h3>
+                <span className="mono">2025 · تطبيق جوّال</span>
+                <h3 className="h3 h-display">تطبيق فينتك</h3>
                 <p className="text-mute">
-                  Native iOS &amp; Android product for a regional
-                  financial-services startup.
+                  منتج iOS وأندرويد لشركة خدمات مالية ناشئة في المنطقة.
                 </p>
               </div>
             </Link>
-            <Link href="/work" className="work-card">
+            <Link href="/ar/work" className="work-card">
               <div className="work-img">
                 <Image
                   src="/home/beautyperformance.png"
-                  alt="D2C beauty performance campaign"
+                  alt="حملة أداء D2C جمال"
                   fill
                   sizes="(max-width: 1024px) 50vw, 33vw"
                   style={{ objectFit: "cover" }}
                 />
               </div>
               <div className="work-meta">
-                <span className="mono">2024 · Paid Media</span>
-                <h3 className="h3 h-display">D2C Beauty Performance</h3>
+                <span className="mono">2024 · إعلانات مدفوعة</span>
+                <h3 className="h3 h-display">حملة أداء D2C جمال</h3>
                 <p className="text-mute">
-                  Full-funnel paid program scaled across KSA &amp; the GCC.
+                  برنامج أداء كامل القمع في المملكة ودول الخليج.
                 </p>
               </div>
             </Link>
@@ -299,10 +295,10 @@ export default function Home() {
       <section className="section approach">
         <div className="container">
           <Reveal className="section-head">
-            <span className="eyebrow">Process · 005</span>
+            <span className="eyebrow">المنهج · 005</span>
             <h2 className="h-display h2">
-              From <em className="serif-touch">brief</em> to{" "}
-              <em className="serif-touch gold">growth</em>.
+              من <em className="serif-touch">البريف</em> إلى{" "}
+              <em className="serif-touch gold">النموّ</em>.
             </h2>
           </Reveal>
           <div className="approach-steps">
@@ -332,7 +328,7 @@ export default function Home() {
             <div className="statue-frame statue-frame-lg">
               <Image
                 src="/home/saudiagency.png"
-                alt="A Saudi agency built by operators"
+                alt="وكالة سعودية يقودها مشغّلون"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 style={{ objectFit: "cover" }}
@@ -345,33 +341,33 @@ export default function Home() {
             </div>
           </Reveal>
           <Reveal className="about-copy">
-            <span className="eyebrow">About · 006</span>
+            <span className="eyebrow">عنّا · 006</span>
             <h2 className="h-display h2" style={{ marginTop: 18 }}>
-              A Saudi agency
+              وكالة سعودية
               <br />
-              built by <em className="serif-touch gold">operators</em>.
+              يقودها <em className="serif-touch gold">مشغّلون</em>.
             </h2>
             <p className="body-lg" style={{ maxWidth: "46ch", marginTop: 28 }}>
-              Strategists, designers, developers, filmmakers and media buyers —
-              all in-house, all senior. We work with founders and marketing
-              leaders who care about how the work actually performs.
+              خبراء استراتيجية، ومصمّمون، ومطوّرون، وصنّاع أفلام، ومشترو
+              إعلام — كلّهم داخليّون، كلّهم ذوو خبرة. نعمل مع المؤسّسين
+              وقادة التسويق الذين يهتمّون بأداء العمل فعلاً.
             </p>
             <div className="about-meta">
               <div>
                 <div className="meta-num h-display gold">06</div>
-                <div className="meta-label">Disciplines</div>
+                <div className="meta-label">تخصّصات</div>
               </div>
               <div>
                 <div className="meta-num h-display gold">KSA</div>
-                <div className="meta-label">Riyadh-based</div>
+                <div className="meta-label">من الرياض</div>
               </div>
               <div>
-                <div className="meta-num h-display gold">EN<span style={{ color: "var(--ink-low)" }}>/</span>AR</div>
-                <div className="meta-label">Bilingual team</div>
+                <div className="meta-num h-display gold">AR<span style={{ color: "var(--ink-low)" }}>/</span>EN</div>
+                <div className="meta-label">فريق ثنائي اللغة</div>
               </div>
             </div>
-            <Link className="btn btn-ghost" href="/about" style={{ marginTop: 36 }}>
-              More About Us <span className="arrow">→</span>
+            <Link className="btn btn-ghost" href="/ar/about" style={{ marginTop: 36 }}>
+              اكتشف المزيد <span className="arrow">→</span>
             </Link>
           </Reveal>
         </div>
@@ -391,13 +387,13 @@ export default function Home() {
               }}
             >
               <div>
-                <span className="eyebrow">Field notes · 007</span>
+                <span className="eyebrow">ملاحظات ميدانية · 007</span>
                 <h2 className="h-display h2" style={{ marginTop: 18 }}>
-                  Latest <em className="serif-touch gold">thinking</em>
+                  أحدث <em className="serif-touch gold">الأفكار</em>
                 </h2>
               </div>
               <a className="btn btn-ghost" href="#">
-                All Articles <span className="arrow">→</span>
+                كل المقالات <span className="arrow">→</span>
               </a>
             </div>
           </Reveal>
@@ -407,7 +403,7 @@ export default function Home() {
                 <span className="mono insight-meta">{it.date}</span>
                 <h3 className="h3 h-display">{it.title}</h3>
                 <p className="text-mute">{it.body}</p>
-                <span className="insight-link mono">Read essay →</span>
+                <span className="insight-link mono">اقرأ المقال →</span>
               </a>
             ))}
           </Reveal>
