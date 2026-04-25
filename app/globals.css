@@ -239,12 +239,23 @@ html[dir="rtl"] {
 html.is-ar .h-display,
 html[dir="rtl"] .h-display {
   letter-spacing: 0;
-  line-height: 1.1;
+  line-height: 1.25;
 }
 html.is-ar .hero-title,
 html[dir="rtl"] .hero-title {
   letter-spacing: 0;
-  line-height: 1.05;
+  line-height: 1.2;
+}
+html.is-ar .hero-line,
+html[dir="rtl"] .hero-line {
+  padding-bottom: 0.4em;
+  margin-bottom: -0.18em;
+}
+html.is-ar .hero-line > span,
+html.is-ar .hero-line > em,
+html[dir="rtl"] .hero-line > span,
+html[dir="rtl"] .hero-line > em {
+  padding-bottom: 0.1em;
 }
 html.is-ar .stat-num,
 html.is-ar .meta-num,
@@ -572,13 +583,19 @@ html[dir="rtl"] .serif-touch {
   font-size: clamp(64px, 12vw, 200px);
   margin-block: 60px 60px;
   font-weight: 500;
-  line-height: 0.92;
+  line-height: 1;
   letter-spacing: -0.04em;
 }
-.hero-line { display: block; overflow: hidden; }
+.hero-line {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.2em;
+  margin-bottom: -0.08em;
+}
 .hero-line > span, .hero-line > em {
   display: inline-block;
   will-change: transform, opacity;
+  padding-bottom: 0.04em;
 }
 
 .hero-mark {
