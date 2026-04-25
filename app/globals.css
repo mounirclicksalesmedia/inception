@@ -446,10 +446,17 @@ html[dir="rtl"] .serif-touch {
 }
 @media (max-width: 880px) {
   .footer-grid { grid-template-columns: 1fr 1fr; }
-  .footer-huge { font-size: 26vw; }
+  .footer-huge {
+    font-size: 19vw;
+    letter-spacing: -0.07em;
+  }
 }
 @media (max-width: 520px) {
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+  .footer-huge {
+    font-size: 18vw;
+    letter-spacing: -0.07em;
+  }
 }
 
 /* ===== Cursor blob ===== */
