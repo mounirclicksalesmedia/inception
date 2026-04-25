@@ -218,7 +218,7 @@ export default function ServicesPageAr() {
                 <span className="ix-num mono">{s.n}</span>
                 <span className="ix-name h-display">{s.name}</span>
                 <span className="ix-tag mono">{s.tag}</span>
-                <span className="ix-arrow">↗</span>
+                <span className="ix-arrow">{"↗︎"}</span>
               </a>
             ))}
           </Reveal>
